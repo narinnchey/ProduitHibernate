@@ -1,0 +1,47 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AccueilController</servlet-name>
+  	<display-name>AccueilController</display-name>
+  	<description></description>
+  	<servlet-class>com.msdev.produithibernate.controller.AccueilController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProduitAjouterController</servlet-name>
+  	<display-name>ProduitAjouterController</display-name>
+  	<description></description>
+  	<servlet-class>com.msdev.produithibernate.controller.ProduitAjouterController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProduitRechercherController</servlet-name>
+  	<display-name>ProduitRechercherController</display-name>
+  	<description></description>
+  	<servlet-class>com.msdev.produithibernate.controller.ProduitRechercherController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ProduitListerController</servlet-name>
+  	<display-name>ProduitListerController</display-name>
+  	<description></description>
+  	<servlet-class>com.msdev.produithibernate.controller.ProduitListerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AccueilController</servlet-name>
+  	<url-pattern>/AccueilController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProduitAjouterController</servlet-name>
+  	<url-pattern>/ProduitAjouterController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProduitRechercherController</servlet-name>
+  	<url-pattern>/ProduitRechercherController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ProduitListerController</servlet-name>
+  	<url-pattern>/ProduitListerController</url-pattern>
+  </servlet-mapping>
+</web-app>
